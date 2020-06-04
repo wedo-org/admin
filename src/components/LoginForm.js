@@ -17,7 +17,7 @@ function LoginForm(props) {
         <input />
         <input />
         <button onClick={ (e) => router(e) }> Login </button>
-        <a href='/new-resource'> I want to submit without logging in </a>
+        {/* <a href='/new-resource'> I want to submit without logging in </a> */}
       </form>
     </main>
   );
