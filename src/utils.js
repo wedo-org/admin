@@ -52,4 +52,9 @@ const fetchDeleteUser = async (id) => {
     return data.data
 }
 
+const fetchPostLogin = async (dataObj) => {
+    const data = await axios.post(`${BASE_URL}/login`, dataObj);
+    return data.data
+}
+
 export { fetchEntries, fetchPage, fetchPing, fetchPostEntry, fetchPatchEntry, fetchDeleteEntry, fetchUsers, fetchPostUser, fetchPatchUser, fetchDeleteUser }
