@@ -57,4 +57,4 @@ const fetchPostLogin = async (dataObj) => {
     return data.data
 }
 
-export { fetchEntries, fetchPage, fetchPing, fetchPostEntry, fetchPatchEntry, fetchDeleteEntry, fetchUsers, fetchPostUser, fetchPatchUser, fetchDeleteUser }
+export { fetchEntries, fetchPage, fetchPing, fetchPostEntry, fetchPatchEntry, fetchDeleteEntry, fetchUsers, fetchPostUser, fetchPatchUser, fetchDeleteUser, fetchPostLogin }

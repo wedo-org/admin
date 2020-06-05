@@ -4,7 +4,7 @@
 
 html {
   height: 100vh;
-  background-image: url('./assets/images/Background2.png');
+  /* background-image: url('./assets/images/Background2.png'); */
   background-repeat: no-repeat;
   background-position: center;
   background-color: #e69652;
@@ -43,9 +43,9 @@ button {
   align-items: center;
 }
 
-.LoginForm, .NewResourceForm {
+.LoginForm, .NewResourceForm, .Dashboard {
   text-align: center;
-  padding-top: 100px;
+  /* padding-top: 100px; */
   margin-top: 10%;
   background-color: rgba(255, 255, 255, 0.5);
   min-height: 50vh;
